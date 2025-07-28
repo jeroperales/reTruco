@@ -1,5 +1,7 @@
 # ReTruco
 
+Website para ayudar entender las reglas del juego argentino Truco, anotador de puntos y armador de equipos.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
 
 ## Development server
