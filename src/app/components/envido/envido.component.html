@@ -1,0 +1,24 @@
+<div class="envido-containter"></div>
+<h2>Explicacion del Envido!</h2>
+
+
+<div class="accordion-menu">
+<ul>
+    <li *ngFor="let step of steps; let i = index"
+[class.active]="i === currentStep"
+          (click)="goToStep(i)">
+        {{ step.title }}
+      </li>
+    </ul>
+  </div>
+
+    <!-- Contenido dinámico -->
+  <div class="accordion-content">
+    <h3>{{ steps[currentStep].title }}</h3>
+    <div [innerHTML]="steps[currentStep].content"></div>
+
+    <div class="buttons">
+      <button (click)="previousStep()" [disabled]="currentStep === 0">Anterior</button>
+      <button (click)="nextStep()" [disabled]="currentStep === steps.length - 1">Siguiente</button>
+    </div>
+  </div>
