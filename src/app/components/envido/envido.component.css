@@ -60,10 +60,12 @@ button {
   padding: 10px 16px;
   border: none;
   border-radius: 6px;
-  background-color: #007bff;
+  background-color: #00e1ff;
   color: white;
   cursor: pointer;
+  font-family: Andale Mono, monospace;
 }
+
 
 button:disabled {
   background-color: #aaa;

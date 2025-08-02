@@ -3,13 +3,13 @@
 	width: 300px;
 	gap: 20px;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Ajusta la cantidad de columnas según el tamaño */
     gap: 20px;
     padding: 20px;
 	text-align: center;
 	justify-content: space-evenly;
 	align-items: center;
 	margin: auto;
+    background-color: #0f5a08; /* Fondo item */
 }
 
 a {
@@ -18,10 +18,10 @@ a {
 }
 
 .card {
-    background-color: #ff009d10; /* Fondo item */
+    background-color: #ff009d; /* Fondo item */
     border-radius: 6%;
     text-decoration: none; 
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     padding: 10px;
     display: flex;
@@ -41,6 +41,7 @@ a {
     height: 100px; 
     object-fit: cover; 
     border-radius: 50%; /* Makes images circular */
+    background-color: #ff009d; /* Fondo item */
 
 }
 
