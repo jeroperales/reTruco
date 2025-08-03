@@ -1,12 +1,14 @@
 body {
-    background-color: #079c13    ;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    min-height: 1vh; 
-    margin: 0;
-    background: rgba(208,228,245,0.79) url("https://pbs.twimg.com/media/DtLfjCGXoAAr1h1.png") repeat fixed 0px 0px;
-  }
-  
+  background: repeat fixed;
+  background-size: 180px;
+  background-color: rgba(208, 228, 245, 0.79);
+  background-image: url('/E1.png');
+  background-repeat: repeat; 
+  background-attachment: fixed;
+  background-position: 0px 0px;
+  min-height: 1vh;
+  margin: 0;
+}
   html,
   body {
     height: 100%;

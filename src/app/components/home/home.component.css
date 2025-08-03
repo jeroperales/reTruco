@@ -9,7 +9,10 @@
 	justify-content: space-evenly;
 	align-items: center;
 	margin: auto;
-    background-color: #0f5a08; /* Fondo item */
+    background-color: #0f5a08; 
+     backdrop-filter: blur(4px);
+    background:  #03530d60;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 a {
@@ -18,7 +21,6 @@ a {
 }
 
 .card {
-    background-color: #ff009d; /* Fondo item */
     border-radius: 6%;
     text-decoration: none; 
     color: rgb(0, 0, 0);

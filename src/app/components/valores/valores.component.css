@@ -1,0 +1,20 @@
+.grid-cartas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.carta {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  width: auto;
+}
+
+.carta-img {
+  width: 70px;
+  height: auto;
+}

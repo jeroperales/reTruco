@@ -1,17 +1,29 @@
+
+
 .envido-container {
-  display: flex;
-  max-width: 900px;
-  margin: 0 auto;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  overflow: hidden;
+ border-radius: 6%;
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    -webkit-box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.29); 
+    box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.29);
+    background: linear-gradient(135deg, rgba(158, 178, 214, 0.233), rgba(255, 255, 255, 0.1));
+   border: 1px solid rgba(255, 255, 255, 0.2);
+  
 }
 
 .accordion-menu {
   width: 35%;
   background-color: #f7f7f7;
   border-right: 1px solid #ddd;
+    background-color: #0f5a08; 
+     backdrop-filter: blur(4px);
+
 }
 
 .accordion-menu ul {
@@ -38,8 +50,11 @@
 }
 
 .accordion-content {
+ 
   width: 65%;
   padding: 25px;
+      background-color: #0f5a083d; 
+     backdrop-filter: blur(4px);
 }
 
 .accordion-content h3 {

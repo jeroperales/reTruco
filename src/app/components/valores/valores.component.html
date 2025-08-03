@@ -1,0 +1,8 @@
+<div class="grid-cartas">
+  <div *ngFor="let carta of cartas; trackBy: trackById" class="carta">
+    <img [src]="carta.codigo + '.png'" [alt]="carta.codigo">
+    <strong>{{ carta.codigo }}</strong>
+  </div>
+</div>
+
+<button class="botonVolver" (click)="goBack()"> VOLVER ATRAS</button>
